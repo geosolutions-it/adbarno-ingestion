@@ -1,0 +1,628 @@
+[INFO] Scanning for projects...
+[INFO] Reactor build order: 
+[INFO]   GeoBatch adbarno root
+[INFO]   GeoBatch action: AdBArno Migration Monitor
+[INFO]   GeoBatch action: AdBArno Actions
+[INFO]   GeoBatch Application
+[INFO] Searching repository for plugin with prefix: 'dependency'.
+[INFO] org.apache.maven.plugins: checking for updates from central
+[INFO] org.codehaus.mojo: checking for updates from central
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.0/maven-dependency-plugin-2.0.pom
+4/11K8/11K11/11K11K downloaded  (maven-dependency-plugin-2.0.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.0/maven-dependency-plugin-2.0.jar
+4/87K8/87K12/87K16/87K18/87K22/87K26/87K30/87K34/87K38/87K40/87K44/87K48/87K52/87K56/87K60/87K64/87K68/87K72/87K73/87K77/87K79/87K83/87K87/87K87/87K87K downloaded  (maven-dependency-plugin-2.0.jar)
+[INFO] ------------------------------------------------------------------------
+[INFO] Building GeoBatch adbarno root
+[INFO]    task-segment: [dependency:tree]
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/file-management/1.1/file-management-1.1.pom
+2/2K2K downloaded  (file-management-1.1.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/4/maven-shared-components-4.pom
+2/2K2K downloaded  (maven-shared-components-4.pom)
+Downloading: http://maven.geo-solutions.it/org/apache/maven/shared/maven-shared-io/1.0/maven-shared-io-1.0.pom
+[INFO] Unable to find resource 'org.apache.maven.shared:maven-shared-io:pom:1.0' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/shared/maven-shared-io/1.0/maven-shared-io-1.0.pom
+[INFO] Unable to find resource 'org.apache.maven.shared:maven-shared-io:pom:1.0' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/shared/maven-shared-io/1.0/maven-shared-io-1.0.pom
+[INFO] Unable to find resource 'org.apache.maven.shared:maven-shared-io:pom:1.0' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-io/1.0/maven-shared-io-1.0.pom
+2/2K2K downloaded  (maven-shared-io-1.0.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.0/maven-dependency-analyzer-1.0.pom
+4/4K4/4K4K downloaded  (maven-dependency-analyzer-1.0.pom)
+Downloading: http://maven.geo-solutions.it/asm/asm/3.0/asm-3.0.pom
+[INFO] Unable to find resource 'asm:asm:pom:3.0' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/asm/asm/3.0/asm-3.0.pom
+[INFO] Unable to find resource 'asm:asm:pom:3.0' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/asm/asm/3.0/asm-3.0.pom
+[INFO] Unable to find resource 'asm:asm:pom:3.0' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/asm/asm/3.0/asm-3.0.pom
+360/360b360b downloaded  (asm-3.0.pom)
+Downloading: http://maven.geo-solutions.it/asm/asm-parent/3.0/asm-parent-3.0.pom
+[INFO] Unable to find resource 'asm:asm-parent:pom:3.0' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/asm/asm-parent/3.0/asm-parent-3.0.pom
+[INFO] Unable to find resource 'asm:asm-parent:pom:3.0' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/asm/asm-parent/3.0/asm-parent-3.0.pom
+[INFO] Unable to find resource 'asm:asm-parent:pom:3.0' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/asm/asm-parent/3.0/asm-parent-3.0.pom
+2/2K2K downloaded  (asm-parent-3.0.pom)
+Downloading: http://maven.geo-solutions.it/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-project:pom:2.0.5' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-project:pom:2.0.5' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-project:pom:2.0.5' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom
+1/1K1K downloaded  (maven-project-2.0.5.pom)
+Downloading: http://maven.geo-solutions.it/org/apache/maven/maven/2.0.5/maven-2.0.5.pom
+[INFO] Unable to find resource 'org.apache.maven:maven:pom:2.0.5' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/maven/2.0.5/maven-2.0.5.pom
+[INFO] Unable to find resource 'org.apache.maven:maven:pom:2.0.5' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/maven/2.0.5/maven-2.0.5.pom
+[INFO] Unable to find resource 'org.apache.maven:maven:pom:2.0.5' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven/2.0.5/maven-2.0.5.pom
+4/5K5/5K5K downloaded  (maven-2.0.5.pom)
+Downloading: http://maven.geo-solutions.it/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-model:pom:2.0.5' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-model:pom:2.0.5' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-model:pom:2.0.5' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom
+2/2K2K downloaded  (maven-model-2.0.5.pom)
+Downloading: http://maven.geo-solutions.it/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-artifact:pom:2.0.5' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-artifact:pom:2.0.5' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-artifact:pom:2.0.5' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom
+727/727b727b downloaded  (maven-artifact-2.0.5.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-tree/1.1/maven-dependency-tree-1.1.pom
+2/2K2K downloaded  (maven-dependency-tree-1.1.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.0/maven-common-artifact-filters-1.0.pom
+1/1K1K downloaded  (maven-common-artifact-filters-1.0.pom)
+Downloading: http://maven.geo-solutions.it/org/apache/maven/shared/maven-plugin-testing-harness/1.1/maven-plugin-testing-harness-1.1.pom
+[INFO] Unable to find resource 'org.apache.maven.shared:maven-plugin-testing-harness:pom:1.1' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/shared/maven-plugin-testing-harness/1.1/maven-plugin-testing-harness-1.1.pom
+[INFO] Unable to find resource 'org.apache.maven.shared:maven-plugin-testing-harness:pom:1.1' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/shared/maven-plugin-testing-harness/1.1/maven-plugin-testing-harness-1.1.pom
+[INFO] Unable to find resource 'org.apache.maven.shared:maven-plugin-testing-harness:pom:1.1' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-plugin-testing-harness/1.1/maven-plugin-testing-harness-1.1.pom
+4/6K6/6K6K downloaded  (maven-plugin-testing-harness-1.1.pom)
+Downloading: http://maven.geo-solutions.it/org/apache/maven/shared/maven-shared-components/7/maven-shared-components-7.pom
+[INFO] Unable to find resource 'org.apache.maven.shared:maven-shared-components:pom:7' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/shared/maven-shared-components/7/maven-shared-components-7.pom
+[INFO] Unable to find resource 'org.apache.maven.shared:maven-shared-components:pom:7' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/shared/maven-shared-components/7/maven-shared-components-7.pom
+[INFO] Unable to find resource 'org.apache.maven.shared:maven-shared-components:pom:7' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/7/maven-shared-components-7.pom
+2/2K2K downloaded  (maven-shared-components-7.pom)
+Downloading: http://maven.geo-solutions.it/org/apache/maven/maven-core/2.0/maven-core-2.0.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-core:pom:2.0' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/maven-core/2.0/maven-core-2.0.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-core:pom:2.0' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/maven-core/2.0/maven-core-2.0.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-core:pom:2.0' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-core/2.0/maven-core-2.0.pom
+4/5K5/5K5K downloaded  (maven-core-2.0.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.4/maven-reporting-impl-2.0.4.pom
+1/1K1K downloaded  (maven-reporting-impl-2.0.4.pom)
+Downloading: http://maven.geo-solutions.it/org/apache/maven/doxia/doxia-core/1.0-alpha-7/doxia-core-1.0-alpha-7.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-core:pom:1.0-alpha-7' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/doxia/doxia-core/1.0-alpha-7/doxia-core-1.0-alpha-7.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-core:pom:1.0-alpha-7' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/doxia/doxia-core/1.0-alpha-7/doxia-core-1.0-alpha-7.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-core:pom:1.0-alpha-7' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.0-alpha-7/doxia-core-1.0-alpha-7.pom
+1/1K1K downloaded  (doxia-core-1.0-alpha-7.pom)
+Downloading: http://maven.geo-solutions.it/oro/oro/2.0.7/oro-2.0.7.pom
+[INFO] Unable to find resource 'oro:oro:pom:2.0.7' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/oro/oro/2.0.7/oro-2.0.7.pom
+[INFO] Unable to find resource 'oro:oro:pom:2.0.7' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/oro/oro/2.0.7/oro-2.0.7.pom
+[INFO] Unable to find resource 'oro:oro:pom:2.0.7' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/oro/oro/2.0.7/oro-2.0.7.pom
+141/141b141b downloaded  (oro-2.0.7.pom)
+Downloading: http://maven.geo-solutions.it/org/apache/maven/maven-plugin-api/2.0.4/maven-plugin-api-2.0.4.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-plugin-api:pom:2.0.4' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/maven-plugin-api/2.0.4/maven-plugin-api-2.0.4.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-plugin-api:pom:2.0.4' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/maven-plugin-api/2.0.4/maven-plugin-api-2.0.4.pom
+[INFO] Unable to find resource 'org.apache.maven:maven-plugin-api:pom:2.0.4' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.4/maven-plugin-api-2.0.4.pom
+643/643b643b downloaded  (maven-plugin-api-2.0.4.pom)
+Downloading: http://maven.geo-solutions.it/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-7/doxia-site-renderer-1.0-alpha-7.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-site-renderer:pom:1.0-alpha-7' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-7/doxia-site-renderer-1.0-alpha-7.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-site-renderer:pom:1.0-alpha-7' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-7/doxia-site-renderer-1.0-alpha-7.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-site-renderer:pom:1.0-alpha-7' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-7/doxia-site-renderer-1.0-alpha-7.pom
+1/1K1K downloaded  (doxia-site-renderer-1.0-alpha-7.pom)
+Downloading: http://maven.geo-solutions.it/org/codehaus/plexus/plexus-i18n/1.0-beta-6/plexus-i18n-1.0-beta-6.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-i18n:pom:1.0-beta-6' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-6/plexus-i18n-1.0-beta-6.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-i18n:pom:1.0-beta-6' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/codehaus/plexus/plexus-i18n/1.0-beta-6/plexus-i18n-1.0-beta-6.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-i18n:pom:1.0-beta-6' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-6/plexus-i18n-1.0-beta-6.pom
+771/771b771b downloaded  (plexus-i18n-1.0-beta-6.pom)
+Downloading: http://maven.geo-solutions.it/org/codehaus/plexus/plexus-components/1.1.4/plexus-components-1.1.4.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-components:pom:1.1.4' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/codehaus/plexus/plexus-components/1.1.4/plexus-components-1.1.4.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-components:pom:1.1.4' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/codehaus/plexus/plexus-components/1.1.4/plexus-components-1.1.4.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-components:pom:1.1.4' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-components/1.1.4/plexus-components-1.1.4.pom
+2/2K2K downloaded  (plexus-components-1.1.4.pom)
+Downloading: http://maven.geo-solutions.it/org/codehaus/plexus/plexus-velocity/1.1.2/plexus-velocity-1.1.2.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-velocity:pom:1.1.2' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/codehaus/plexus/plexus-velocity/1.1.2/plexus-velocity-1.1.2.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-velocity:pom:1.1.2' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/codehaus/plexus/plexus-velocity/1.1.2/plexus-velocity-1.1.2.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-velocity:pom:1.1.2' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-velocity/1.1.2/plexus-velocity-1.1.2.pom
+4/7K7/7K7K downloaded  (plexus-velocity-1.1.2.pom)
+Downloading: http://maven.geo-solutions.it/commons-collections/commons-collections/2.0/commons-collections-2.0.pom
+[INFO] Unable to find resource 'commons-collections:commons-collections:pom:2.0' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/commons-collections/commons-collections/2.0/commons-collections-2.0.pom
+[INFO] Unable to find resource 'commons-collections:commons-collections:pom:2.0' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/commons-collections/commons-collections/2.0/commons-collections-2.0.pom
+[INFO] Unable to find resource 'commons-collections:commons-collections:pom:2.0' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/commons-collections/commons-collections/2.0/commons-collections-2.0.pom
+171/171b171b downloaded  (commons-collections-2.0.pom)
+Downloading: http://maven.geo-solutions.it/commons-logging/commons-logging-api/1.0.4/commons-logging-api-1.0.4.pom
+[INFO] Unable to find resource 'commons-logging:commons-logging-api:pom:1.0.4' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/commons-logging/commons-logging-api/1.0.4/commons-logging-api-1.0.4.pom
+[INFO] Unable to find resource 'commons-logging:commons-logging-api:pom:1.0.4' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/commons-logging/commons-logging-api/1.0.4/commons-logging-api-1.0.4.pom
+[INFO] Unable to find resource 'commons-logging:commons-logging-api:pom:1.0.4' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/commons-logging/commons-logging-api/1.0.4/commons-logging-api-1.0.4.pom
+168/168b168b downloaded  (commons-logging-api-1.0.4.pom)
+Downloading: http://maven.geo-solutions.it/velocity/velocity/1.4/velocity-1.4.pom
+[INFO] Unable to find resource 'velocity:velocity:pom:1.4' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/velocity/velocity/1.4/velocity-1.4.pom
+[INFO] Unable to find resource 'velocity:velocity:pom:1.4' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/velocity/velocity/1.4/velocity-1.4.pom
+[INFO] Unable to find resource 'velocity:velocity:pom:1.4' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/velocity/velocity/1.4/velocity-1.4.pom
+2/2K2K downloaded  (velocity-1.4.pom)
+Downloading: http://maven.geo-solutions.it/velocity/velocity-dep/1.4/velocity-dep-1.4.pom
+[INFO] Unable to find resource 'velocity:velocity-dep:pom:1.4' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/velocity/velocity-dep/1.4/velocity-dep-1.4.pom
+[INFO] Unable to find resource 'velocity:velocity-dep:pom:1.4' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/velocity/velocity-dep/1.4/velocity-dep-1.4.pom
+[INFO] Unable to find resource 'velocity:velocity-dep:pom:1.4' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/velocity/velocity-dep/1.4/velocity-dep-1.4.pom
+1/1K1K downloaded  (velocity-dep-1.4.pom)
+Downloading: http://maven.geo-solutions.it/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-7/doxia-decoration-model-1.0-alpha-7.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-decoration-model:pom:1.0-alpha-7' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-7/doxia-decoration-model-1.0-alpha-7.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-decoration-model:pom:1.0-alpha-7' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-7/doxia-decoration-model-1.0-alpha-7.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-decoration-model:pom:1.0-alpha-7' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-7/doxia-decoration-model-1.0-alpha-7.pom
+1/1K1K downloaded  (doxia-decoration-model-1.0-alpha-7.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-8/doxia-sink-api-1.0-alpha-8.pom
+424/424b424b downloaded  (doxia-sink-api-1.0-alpha-8.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-8/doxia-1.0-alpha-8.pom
+2/2K2K downloaded  (doxia-1.0-alpha-8.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-parent/1/maven-parent-1.pom
+4/6K6/6K6K downloaded  (maven-parent-1.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/apache/1/apache-1.pom
+3/3K3K downloaded  (apache-1.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-8/doxia-site-renderer-1.0-alpha-8.pom
+1/1K1K downloaded  (doxia-site-renderer-1.0-alpha-8.pom)
+Downloading: http://maven.geo-solutions.it/org/apache/maven/doxia/doxia-core/1.0-alpha-8/doxia-core-1.0-alpha-8.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-core:pom:1.0-alpha-8' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/doxia/doxia-core/1.0-alpha-8/doxia-core-1.0-alpha-8.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-core:pom:1.0-alpha-8' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/doxia/doxia-core/1.0-alpha-8/doxia-core-1.0-alpha-8.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-core:pom:1.0-alpha-8' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.0-alpha-8/doxia-core-1.0-alpha-8.pom
+1/1K1K downloaded  (doxia-core-1.0-alpha-8.pom)
+Downloading: http://maven.geo-solutions.it/org/codehaus/plexus/plexus-velocity/1.1.3/plexus-velocity-1.1.3.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-velocity:pom:1.1.3' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/codehaus/plexus/plexus-velocity/1.1.3/plexus-velocity-1.1.3.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-velocity:pom:1.1.3' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/codehaus/plexus/plexus-velocity/1.1.3/plexus-velocity-1.1.3.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-velocity:pom:1.1.3' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-velocity/1.1.3/plexus-velocity-1.1.3.pom
+976/976b976b downloaded  (plexus-velocity-1.1.3.pom)
+Downloading: http://maven.geo-solutions.it/org/codehaus/plexus/plexus-components/1.1.5/plexus-components-1.1.5.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-components:pom:1.1.5' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/codehaus/plexus/plexus-components/1.1.5/plexus-components-1.1.5.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-components:pom:1.1.5' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/codehaus/plexus/plexus-components/1.1.5/plexus-components-1.1.5.pom
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-components:pom:1.1.5' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-components/1.1.5/plexus-components-1.1.5.pom
+2/2K2K downloaded  (plexus-components-1.1.5.pom)
+Downloading: http://maven.geo-solutions.it/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-8/doxia-decoration-model-1.0-alpha-8.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-decoration-model:pom:1.0-alpha-8' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-8/doxia-decoration-model-1.0-alpha-8.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-decoration-model:pom:1.0-alpha-8' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-8/doxia-decoration-model-1.0-alpha-8.pom
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-decoration-model:pom:1.0-alpha-8' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-8/doxia-decoration-model-1.0-alpha-8.pom
+1/1K1K downloaded  (doxia-decoration-model-1.0-alpha-8.pom)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.0.4/maven-reporting-impl-2.0.4.jar
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/file-management/1.1/file-management-1.1.jar
+Downloading: http://maven.geo-solutions.it/velocity/velocity/1.4/velocity-1.4.jar
+Downloading: http://maven.geo-solutions.it/oro/oro/2.0.7/oro-2.0.7.jar
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.jar
+4/13K8/13K12/13K13/13K13K downloaded  (maven-reporting-impl-2.0.4.jar)
+[INFO] Unable to find resource 'velocity:velocity:jar:1.4' in repository geosolutions (http://maven.geo-solutions.it)
+[INFO] Unable to find resource 'oro:oro:jar:2.0.7' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/velocity/velocity/1.4/velocity-1.4.jar
+Downloading: http://repository.jboss.com/maven2/oro/oro/2.0.7/oro-2.0.7.jar
+4/30K8/30K8/30K 4/199K11/30K 4/199K11/30K 8/199K11/30K 11/199KDownloading: http://maven.geo-solutions.it/org/apache/maven/doxia/doxia-core/1.0-alpha-7/doxia-core-1.0-alpha-7.jar
+15/30K 11/199K19/30K 11/199K23/30K 11/199K23/30K 15/199K27/30K 15/199K27/30K 19/199K27/30K 22/199K30/30K 22/199K30K downloaded  (file-management-1.1.jar)
+26/199K30/199K34/199K[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-core:jar:1.0-alpha-7' in repository geosolutions (http://maven.geo-solutions.it)
+38/199K42/199KDownloading: http://repository.jboss.com/maven2/org/apache/maven/doxia/doxia-core/1.0-alpha-7/doxia-core-1.0-alpha-7.jar
+46/199K50/199K51/199K55/199K59/199K59/199K63/199K67/199K71/199K72/199KDownloading: http://maven.geo-solutions.it/asm/asm/3.0/asm-3.0.jar
+76/199K80/199K84/199K88/199K92/199K96/199K100/199K104/199K108/199K112/199K112/199K[INFO] Unable to find resource 'asm:asm:jar:3.0' in repository geosolutions (http://maven.geo-solutions.it)
+116/199KDownloading: http://repository.jboss.com/maven2/asm/asm/3.0/asm-3.0.jar
+120/199K122/199K126/199K130/199K134/199K138/199K142/199K146/199K150/199K154/199K158/199K162/199K166/199K170/199K174/199K178/199K182/199K186/199K190/199K194/199K198/199K199/199K199K downloaded  (plexus-utils-1.4.6.jar)
+Downloading: http://maven.geo-solutions.it/commons-collections/commons-collections/2.0/commons-collections-2.0.jar
+[INFO] Unable to find resource 'commons-collections:commons-collections:jar:2.0' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/commons-collections/commons-collections/2.0/commons-collections-2.0.jar
+[INFO] Unable to find resource 'velocity:velocity:jar:1.4' in repository JBoss (http://repository.jboss.com/maven2)
+[INFO] Unable to find resource 'oro:oro:jar:2.0.7' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/velocity/velocity/1.4/velocity-1.4.jar
+Downloading: repo.boundlessgeo.com/oro/oro/2.0.7/oro-2.0.7.jar
+[INFO] Unable to find resource 'velocity:velocity:jar:1.4' in repository boundless (repo.boundlessgeo.com)
+[INFO] Unable to find resource 'oro:oro:jar:2.0.7' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/velocity/velocity/1.4/velocity-1.4.jar
+Downloading: http://repo1.maven.org/maven2/oro/oro/2.0.7/oro-2.0.7.jar
+4/63K8/63K12/63K12/63K 4/352K16/63K 4/352K16/63K 8/352K16/63K 8/352K16/63K 12/352K16/63K 16/352K16/63K 20/352K16/63K 24/352K16/63K 28/352K16/63K 32/352K16/63K 36/352K16/63K 40/352K16/63K 44/352K16/63K 48/352K16/63K 52/352K16/63K 56/352K16/63K 58/352K20/63K 58/352K24/63K 58/352K28/63K 58/352K32/63K 58/352K36/63K 58/352K40/63K 58/352K40/63K 62/352K43/63K 62/352K43/63K 66/352K43/63K 70/352K43/63K 74/352K43/63K 78/352K43/63K 82/352K43/63K 86/352K43/63K 90/352K43/63K 94/352K43/63K 98/352K[INFO] 43/63K 102/352KUnable to find resource 'org.apache.maven.doxia:doxia-core:jar:1.0-alpha-7' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/doxia/doxia-core/1.0-alpha-7/doxia-core-1.0-alpha-7.jar
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-core:jar:1.0-alpha-7' in repository boundless (repo.boundlessgeo.com)
+43/63K 106/352KDownloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.0-alpha-7/doxia-core-1.0-alpha-7.jar
+43/63K 110/352K43/63K 114/352K43/63K 118/352K43/63K 122/352K43/63K 122/352K47/63K 122/352K51/63K 122/352K52/63K 122/352K56/63K 122/352K57/63K 122/352K61/63K 122/352K63/63K 122/352K63K downloaded  (oro-2.0.7.jar)
+126/352K128/352K131/352K135/352K139/352K142/352K146/352K149/352K153/352K157/352K161/352K165/352K166/352K170/352K174/352K178/352K180/352K182/352K186/352K190/352K194/352K197/352K201/352K205/352K207/352K211/352K211/352K 4/225K211/352K 8/225K211/352K 12/225K211/352K 16/225K211/352K 20/225K211/352K 24/225K211/352K 26/225K211/352K 30/225K211/352K 34/225K211/352K 38/225K211/352K 38/225K215/352K 38/225K219/352K 38/225K219/352K 38/225K223/352K 38/225K227/352K 38/225K228/352K 38/225K232/352K 38/225K236/352K 38/225K238/352K 38/225K242/352K 38/225K246/352K 38/225K249/352K 38/225KDownloading: http://maven.geo-solutions.it/org/apache/maven/shared/maven-shared-io/1.0/maven-shared-io-1.0.jar
+253/352K 38/225K257/352K 38/225K261/352K 38/225K265/352K 38/225K269/352K 38/225K273/352K 38/225K277/352K 38/225K277/352K 38/225K281/352K 38/225K285/352K 38/225K289/352K 38/225K289/352K 38/225K293/352K 38/225K294/352K 38/225K298/352K 38/225K302/352K 38/225K304/352K 38/225K307/352K 38/225K311/352K 38/225K315/352K 38/225K315/352K 38/225K318/352K 38/225K322/352K 38/225K326/352K 38/225K330/352K 38/225K333/352K 38/225K333/352K 42/225K333/352K 46/225K333/352K 50/225K333/352K 53/225K333/352K 57/225K333/352K 61/225K333/352K 65/225K333/352K 66/225K333/352K 70/225K333/352K 70/225K333/352K 74/225K333/352K 78/225K333/352K 82/225K333/352K 85/225K337/352K 85/225K341/352K 85/225K345/352K 85/225K346/352K 85/225K350/352K 85/225K352/352K 85/225K[INFO] Unable to find resource 'asm:asm:jar:3.0' in repository JBoss (http://repository.jboss.com/maven2)
+352K downloaded  (velocity-1.4.jar)
+Downloading: repo.boundlessgeo.com/asm/asm/3.0/asm-3.0.jar
+[INFO] Unable to find resource 'asm:asm:jar:3.0' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/asm/asm/3.0/asm-3.0.jar
+89/225K93/225K97/225K100/225K104/225K108/225K112/225K114/225K118/225K122/225K123/225K127/225K131/225K135/225K139/225K141/225K145/225K149/225K150/225K154/225K158/225K[INFO] Unable to find resource 'org.apache.maven.shared:maven-shared-io:jar:1.0' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/shared/maven-shared-io/1.0/maven-shared-io-1.0.jar
+158/225K 4/41K158/225K 8/41K158/225K 12/41K158/225K 16/41K158/225K 20/41K158/225K 20/41KDownloading: http://maven.geo-solutions.it/velocity/velocity-dep/1.4/velocity-dep-1.4.jar
+158/225K 24/41K158/225K 28/41K158/225K 32/41K158/225K 32/41K162/225K 32/41K166/225K 32/41K168/225K 32/41K171/225K 32/41K175/225K 32/41K179/225K 32/41K182/225K 32/41K185/225K 32/41K189/225K 32/41K193/225K 32/41K197/225K 32/41K200/225K 32/41K204/225K 32/41K208/225K 32/41K209/225K 32/41K213/225K 32/41K217/225K 32/41K221/225K 32/41K225/225K 32/41K225/225K 32/41K225K downloaded  (doxia-core-1.0-alpha-7.jar)
+36/41K40/41K41/41K41K downloaded  (asm-3.0.jar)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.0-alpha-8/doxia-site-renderer-1.0-alpha-8.jar
+[INFO] Unable to find resource 'velocity:velocity-dep:jar:1.4' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/velocity/velocity-dep/1.4/velocity-dep-1.4.jar
+Downloading: http://maven.geo-solutions.it/org/codehaus/plexus/plexus-i18n/1.0-beta-6/plexus-i18n-1.0-beta-6.jar
+4/33K8/33K12/33K16/33K20/33K24/33K28/33K30/33K33/33K33K downloaded  (doxia-site-renderer-1.0-alpha-8.jar)
+[INFO] Unable to find resource 'commons-collections:commons-collections:jar:2.0' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/commons-collections/commons-collections/2.0/commons-collections-2.0.jar
+[INFO] Unable to find resource 'commons-collections:commons-collections:jar:2.0' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/commons-collections/commons-collections/2.0/commons-collections-2.0.jar
+Downloading: http://maven.geo-solutions.it/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-8/doxia-decoration-model-1.0-alpha-8.jar
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-6/plexus-i18n-1.0-beta-6.jar
+4/88K8/88K12/88K16/88K20/88K24/88K25/88K29/88K33/88K34/88K38/88K42/88K46/88K47/88K51/88K52/88K56/88K60/88K64/88K66/88K[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-decoration-model:jar:1.0-alpha-8' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-8/doxia-decoration-model-1.0-alpha-8.jar
+70/88K74/88K78/88K78/88K82/88K86/88K86/88K88/88K88K downloaded  (commons-collections-2.0.jar)
+[INFO] Unable to find resource 'org.apache.maven.shared:maven-shared-io:jar:1.0' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/shared/maven-shared-io/1.0/maven-shared-io-1.0.jar
+[INFO] Unable to find resource 'org.apache.maven.shared:maven-shared-io:jar:1.0' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-io/1.0/maven-shared-io-1.0.jar
+4/32K8/32K12/32K16/32K20/32K24/32K28/32K29/32K32/32K32K downloaded  (maven-shared-io-1.0.jar)
+[INFO] Unable to find resource 'velocity:velocity-dep:jar:1.4' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/velocity/velocity-dep/1.4/velocity-dep-1.4.jar
+[INFO] Unable to find resource 'velocity:velocity-dep:jar:1.4' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/velocity/velocity-dep/1.4/velocity-dep-1.4.jar
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.0/maven-dependency-analyzer-1.0.jar
+4/505K8/505K12/505K16/505K20/505K24/505K26/505K30/505K34/505K38/505K40/505K44/505K48/505K52/505K52/505K56/505K60/505K64/505K66/505K70/505K74/505K78/505K79/505K83/505K87/505K88/505K88/505K 4/26K88/505K 8/26K88/505K 12/26K88/505K 16/26K88/505K 20/26K88/505K 24/26K88/505K 24/26K88/505K 26/26K26K downloaded  (maven-dependency-analyzer-1.0.jar)
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/codehaus/plexus/plexus-i18n/1.0-beta-6/plexus-i18n-1.0-beta-6.jar
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-6/plexus-i18n-1.0-beta-6.jar
+92/505K96/505K100/505K100/505K104/505K108/505K110/505K114/505K118/505K122/505K123/505K127/505K130/505K134/505K138/505K141/505K144/505K148/505K150/505K154/505K158/505K160/505K164/505K168/505K172/505K174/505K178/505K182/505K186/505K190/505K191/505K195/505K199/505K203/505K205/505KDownloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-tree/1.1/maven-dependency-tree-1.1.jar
+209/505K213/505K216/505K216/505K 4/11K220/505K 4/11K224/505K 4/11K224/505K 4/11K224/505K 8/11K224/505K 11/11K11K downloaded  (plexus-i18n-1.0-beta-6.jar)
+228/505K232/505K236/505K240/505K241/505K245/505K249/505K253/505K257/505K259/505K263/505K267/505K269/505K272/505K276/505K280/505K282/505K286/505K290/505K294/505K296/505K299/505K303/505K307/505K311/505K314/505K318/505K322/505K326/505K328/505K331/505K335/505K339/505K342/505K345/505K349/505K353/505K357/505K358/505K362/505K366/505K367/505K367/505K 4/33K367/505K 8/33K367/505K 12/33K367/505K 16/33K367/505K 20/33K367/505K 24/33K367/505K 25/33K367/505K 27/33K367/505K 31/33K367/505K 33/33K33K downloaded  (maven-dependency-tree-1.1.jar)
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-decoration-model:jar:1.0-alpha-8' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-8/doxia-decoration-model-1.0-alpha-8.jar
+[INFO] Unable to find resource 'org.apache.maven.doxia:doxia-decoration-model:jar:1.0-alpha-8' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.0-alpha-8/doxia-decoration-model-1.0-alpha-8.jar
+371/505K375/505K379/505K381/505K385/505K389/505K392/505K396/505K400/505K403/505K407/505K411/505K414/505K418/505K422/505K425/505K429/505K433/505K435/505K439/505K443/505K445/505KDownloading: http://maven.geo-solutions.it/org/codehaus/plexus/plexus-velocity/1.1.3/plexus-velocity-1.1.3.jar
+449/505K453/505K457/505K461/505K464/505K468/505K472/505K476/505K478/505K482/505K486/505K490/505K491/505K495/505K499/505K502/505K505/505K505K downloaded  (velocity-dep-1.4.jar)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.0/maven-common-artifact-filters-1.0.jar
+4/39K8/39K11/39K11/39K 4/26K11/39K 8/26K11/39K 12/26K11/39K 16/26K11/39K 20/26K11/39K 21/26K11/39K 25/26K11/39K 26/26K26K downloaded  (maven-common-artifact-filters-1.0.jar)
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-velocity:jar:1.1.3' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/codehaus/plexus/plexus-velocity/1.1.3/plexus-velocity-1.1.3.jar
+15/39K19/39K22/39KDownloading: http://maven.geo-solutions.it/org/apache/maven/shared/maven-plugin-testing-harness/1.1/maven-plugin-testing-harness-1.1.jar
+26/39K30/39K34/39K36/39K39/39K39K downloaded  (doxia-decoration-model-1.0-alpha-8.jar)
+[INFO] Unable to find resource 'org.apache.maven.shared:maven-plugin-testing-harness:jar:1.1' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/apache/maven/shared/maven-plugin-testing-harness/1.1/maven-plugin-testing-harness-1.1.jar
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-velocity:jar:1.1.3' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/codehaus/plexus/plexus-velocity/1.1.3/plexus-velocity-1.1.3.jar
+[INFO] Unable to find resource 'org.codehaus.plexus:plexus-velocity:jar:1.1.3' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-velocity/1.1.3/plexus-velocity-1.1.3.jar
+4/7K7/7K7K downloaded  (plexus-velocity-1.1.3.jar)
+[INFO] Unable to find resource 'org.apache.maven.shared:maven-plugin-testing-harness:jar:1.1' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/apache/maven/shared/maven-plugin-testing-harness/1.1/maven-plugin-testing-harness-1.1.jar
+[INFO] Unable to find resource 'org.apache.maven.shared:maven-plugin-testing-harness:jar:1.1' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-plugin-testing-harness/1.1/maven-plugin-testing-harness-1.1.jar
+4/31K8/31K12/31K16/31K20/31K21/31K25/31K29/31K31/31K31K downloaded  (maven-plugin-testing-harness-1.1.jar)
+[INFO] [dependency:tree {execution: default-cli}]
+[INFO] it.geosolutions.geobatch.adbarno:gb-adbarno:pom:1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Building GeoBatch action: AdBArno Migration Monitor
+[INFO]    task-segment: [dependency:tree]
+[INFO] ------------------------------------------------------------------------
+[INFO] [dependency:tree {execution: default-cli}]
+[INFO] it.geosolutions.geobatch.adbarno:gb-action-migration-monitor:jar:1.4-SNAPSHOT
+[INFO] +- it.geosolutions.geobatch:gb-core-impl:jar:1.4-SNAPSHOT:compile
+[INFO] |  +- commons-collections:commons-collections:jar:3.2.1:compile
+[INFO] |  +- javax.media:jai_core:jar:1.1.3:compile
+[INFO] |  +- javax.media:jai_codec:jar:1.1.3:compile
+[INFO] |  +- it.geosolutions.jaiext.scheduler:jt-scheduler:jar:1.0-SNAPSHOT:compile
+[INFO] |  |  +- it.geosolutions.jaiext.utilities:jt-utilities:jar:1.0-SNAPSHOT:compile
+[INFO] |  |  |  \- it.geosolutions.jaiext.iterators:jt-iterators:jar:1.0-SNAPSHOT:compile
+[INFO] |  |  +- javax.media:jai_imageio:jar:1.1:compile
+[INFO] |  |  \- org.jaitools:jt-utils:jar:1.2.0:compile
+[INFO] |  |     \- com.vividsolutions:jts:jar:1.11:compile
+[INFO] |  |        \- xerces:xercesImpl:jar:2.4.0:compile
+[INFO] |  +- it.geosolutions.geobatch:gb-core-model:jar:1.4-SNAPSHOT:compile
+[INFO] |  |  \- it.geosolutions.tools:tools-commons:jar:1.4-SNAPSHOT:compile
+[INFO] |  +- it.geosolutions.geobatch:gb-alias-registry:jar:1.4-SNAPSHOT:compile
+[INFO] |  |  \- com.thoughtworks.xstream:xstream:jar:1.4.2:compile
+[INFO] |  |     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] |  |     \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] |  +- org.springframework:spring-context:jar:3.0.3.RELEASE:compile
+[INFO] |  |  +- org.springframework:spring-expression:jar:3.0.3.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-asm:jar:3.0.3.RELEASE:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.5.11:compile
+[INFO] |  +- org.slf4j:jcl-over-slf4j:jar:1.5.11:compile
+[INFO] |  \- org.slf4j:slf4j-log4j12:jar:1.5.11:compile
+[INFO] +- it.geosolutions.geobatch:gb-fs-catalog:jar:1.4-SNAPSHOT:compile
+[INFO] |  +- it.geosolutions.tools:tools-io:jar:1.4-SNAPSHOT:compile
+[INFO] |  |  \- commons-io:commons-io:jar:2.1:compile
+[INFO] |  +- log4j:log4j:jar:1.2.17:compile
+[INFO] |  +- org.springframework:spring-beans:jar:3.0.3.RELEASE:compile
+[INFO] |  +- org.springframework:spring-web:jar:3.0.3.RELEASE:compile
+[INFO] |  |  \- aopalliance:aopalliance:jar:1.0:compile
+[INFO] |  +- javax.servlet:servlet-api:jar:2.5:compile
+[INFO] |  +- it.geosolutions.geobatch:gb-fsm-quartz:jar:1.4-SNAPSHOT:compile
+[INFO] |  |  \- org.quartz-scheduler:quartz:jar:2.1.6:compile
+[INFO] |  |     \- c3p0:c3p0:jar:0.9.1.1:compile
+[INFO] |  \- it.geosolutions.geobatch:gb-fsm-core:jar:1.4-SNAPSHOT:compile
+[INFO] +- org.springframework:spring-aop:jar:3.0.3.RELEASE:test (scope not updated to compile)
+[INFO] +- org.springframework:spring-orm:jar:3.0.3.RELEASE:compile
+[INFO] |  +- org.springframework:spring-core:jar:3.0.3.RELEASE:compile
+[INFO] |  \- org.springframework:spring-tx:jar:3.0.3.RELEASE:compile
+[INFO] +- org.springframework:spring-jdbc:jar:3.0.3.RELEASE:compile
+[INFO] +- com.googlecode.genericdao:dao:jar:1.1.0:compile
+[INFO] |  \- com.googlecode.genericdao:search:jar:1.1.0:compile
+[INFO] +- com.googlecode.genericdao:search-jpa-hibernate:jar:1.1.0:compile
+[INFO] |  \- com.googlecode.genericdao:search-hibernate:jar:1.1.0:compile
+[INFO] |     \- org.hibernate:hibernate-core:jar:3.3.1.GA:compile
+[INFO] +- org.hibernate:hibernate-annotations:jar:3.3.1.GA:compile
+[INFO] |  +- org.hibernate:hibernate:jar:3.2.6.ga:compile
+[INFO] |  |  +- net.sf.ehcache:ehcache:jar:1.2.3:compile
+[INFO] |  |  +- antlr:antlr:jar:2.7.6:compile
+[INFO] |  |  \- cglib:cglib:jar:2.1_3:compile
+[INFO] |  +- org.hibernate:ejb3-persistence:jar:1.0.1.GA:compile
+[INFO] |  \- commons-logging:commons-logging:jar:1.0.4:compile
+[INFO] +- org.hibernate:hibernate-commons-annotations:jar:3.3.0.ga:compile
+[INFO] |  \- javax.persistence:persistence-api:jar:1.0:compile
+[INFO] +- org.hibernate:hibernate-entitymanager:jar:3.3.2.GA:compile
+[INFO] |  \- javassist:javassist:jar:3.4.GA:compile
+[INFO] +- org.hibernate:hibernate-validator:jar:3.0.0.ga:compile
+[INFO] +- javax.transaction:jta:jar:1.1:compile
+[INFO] +- org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile
+[INFO] +- postgresql:postgresql:jar:9.1-901-1.jdbc4:compile
+[INFO] +- dom4j:dom4j:jar:1.6.1:compile
+[INFO] |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+[INFO] +- asm:asm:jar:3.1:compile (version managed from 1.5.3)
+[INFO] +- commons-dbcp:commons-dbcp:jar:1.4:compile
+[INFO] |  \- commons-pool:commons-pool:jar:1.5.4:compile
+[INFO] \- junit:junit:jar:4.11:test
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] ------------------------------------------------------------------------
+[INFO] Building GeoBatch action: AdBArno Actions
+[INFO]    task-segment: [dependency:tree]
+[INFO] ------------------------------------------------------------------------
+[INFO] [dependency:tree {execution: default-cli}]
+[INFO] it.geosolutions.geobatch.adbarno:gb-actions-adbarno:pom:1.4-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Building GeoBatch Application
+[INFO]    task-segment: [dependency:tree]
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven.geo-solutions.it/net/sourceforge/hatbox/hatbox/1.0.b7/hatbox-1.0.b7.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b7' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/net/sourceforge/hatbox/hatbox/1.0.b7/hatbox-1.0.b7.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b7' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/net/sourceforge/hatbox/hatbox/1.0.b7/hatbox-1.0.b7.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b7' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://download.osgeo.org/webdav/geotools//net/sourceforge/hatbox/hatbox/1.0.b7/hatbox-1.0.b7.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b7' in repository osgeo (http://download.osgeo.org/webdav/geotools/)
+Downloading: http://maven.geotoolkit.org//net/sourceforge/hatbox/hatbox/1.0.b7/hatbox-1.0.b7.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b7' in repository geotoolkit (http://maven.geotoolkit.org/)
+Downloading: http://repo.boundlessgeo.com/net/sourceforge/hatbox/hatbox/1.0.b7/hatbox-1.0.b7.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b7' in repository opengeo (http://repo.boundlessgeo.com)
+Downloading: http://download.java.net/maven/2//net/sourceforge/hatbox/hatbox/1.0.b7/hatbox-1.0.b7.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b7' in repository java.net (http://download.java.net/maven/2/)
+Downloading: http://svn.apache.org/repos/asf/camel/m2-repo/net/sourceforge/hatbox/hatbox/1.0.b7/hatbox-1.0.b7.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b7' in repository camel.internal.maven.repository (http://svn.apache.org/repos/asf/camel/m2-repo)
+Downloading: http://www.hibernatespatial.org/repository/net/sourceforge/hatbox/hatbox/1.0.b7/hatbox-1.0.b7.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b7' in repository Hibernate Spatial repo (http://www.hibernatespatial.org/repository)
+Downloading: http://maven.restlet.org/net/sourceforge/hatbox/hatbox/1.0.b7/hatbox-1.0.b7.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b7' in repository maven-restlet (http://maven.restlet.org)
+Downloading: http://repo1.maven.org/maven2/net/sourceforge/hatbox/hatbox/1.0.b7/hatbox-1.0.b7.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b7' in repository official maven 1 (http://repo1.maven.org/maven2)
+Downloading: http://repo2.maven.org/maven2/net/sourceforge/hatbox/hatbox/1.0.b7/hatbox-1.0.b7.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b7' in repository official maven 2 (http://repo2.maven.org/maven2)
+Downloading: http://download.java.net/maven/2/net/sourceforge/hatbox/hatbox/1.0.b7/hatbox-1.0.b7.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b7' in repository maven2-repository.dev.java.net (http://download.java.net/maven/2)
+Downloading: http://repo1.maven.org/maven2/net/sourceforge/hatbox/hatbox/1.0.b7/hatbox-1.0.b7.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b7' in repository central (http://repo1.maven.org/maven2)
+Downloading: http://maven.geo-solutions.it/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b9' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b9' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b9' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://download.osgeo.org/webdav/geotools//net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b9' in repository osgeo (http://download.osgeo.org/webdav/geotools/)
+Downloading: http://maven.geotoolkit.org//net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b9' in repository geotoolkit (http://maven.geotoolkit.org/)
+Downloading: http://repo.boundlessgeo.com/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b9' in repository opengeo (http://repo.boundlessgeo.com)
+Downloading: http://download.java.net/maven/2//net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b9' in repository java.net (http://download.java.net/maven/2/)
+Downloading: http://svn.apache.org/repos/asf/camel/m2-repo/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b9' in repository camel.internal.maven.repository (http://svn.apache.org/repos/asf/camel/m2-repo)
+Downloading: http://www.hibernatespatial.org/repository/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b9' in repository Hibernate Spatial repo (http://www.hibernatespatial.org/repository)
+Downloading: http://maven.restlet.org/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b9' in repository maven-restlet (http://maven.restlet.org)
+Downloading: http://repo1.maven.org/maven2/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b9' in repository official maven 1 (http://repo1.maven.org/maven2)
+Downloading: http://repo2.maven.org/maven2/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b9' in repository official maven 2 (http://repo2.maven.org/maven2)
+Downloading: http://repo1.maven.org/maven2/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.pom
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:pom:1.0.b9' in repository central (http://repo1.maven.org/maven2)
+Downloading: http://maven.geo-solutions.it/javax/script/groovy-engine/1.1/groovy-engine-1.1.pom
+[INFO] Unable to find resource 'javax.script:groovy-engine:pom:1.1' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/javax/script/groovy-engine/1.1/groovy-engine-1.1.pom
+[INFO] Unable to find resource 'javax.script:groovy-engine:pom:1.1' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/javax/script/groovy-engine/1.1/groovy-engine-1.1.pom
+[INFO] Unable to find resource 'javax.script:groovy-engine:pom:1.1' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://dist.codehaus.org/mule/dependencies/maven2/javax/script/groovy-engine/1.1/groovy-engine-1.1.pom
+[INFO] Unable to find resource 'javax.script:groovy-engine:pom:1.1' in repository mule-deps (http://dist.codehaus.org/mule/dependencies/maven2)
+Downloading: http://download.osgeo.org/webdav/geotools//javax/script/groovy-engine/1.1/groovy-engine-1.1.pom
+[INFO] Unable to find resource 'javax.script:groovy-engine:pom:1.1' in repository osgeo (http://download.osgeo.org/webdav/geotools/)
+Downloading: http://maven.geotoolkit.org//javax/script/groovy-engine/1.1/groovy-engine-1.1.pom
+[INFO] Unable to find resource 'javax.script:groovy-engine:pom:1.1' in repository geotoolkit (http://maven.geotoolkit.org/)
+Downloading: http://repo.boundlessgeo.com/javax/script/groovy-engine/1.1/groovy-engine-1.1.pom
+[INFO] Unable to find resource 'javax.script:groovy-engine:pom:1.1' in repository opengeo (http://repo.boundlessgeo.com)
+Downloading: http://download.java.net/maven/2//javax/script/groovy-engine/1.1/groovy-engine-1.1.pom
+[INFO] Unable to find resource 'javax.script:groovy-engine:pom:1.1' in repository java.net (http://download.java.net/maven/2/)
+Downloading: http://svn.apache.org/repos/asf/camel/m2-repo/javax/script/groovy-engine/1.1/groovy-engine-1.1.pom
+[INFO] Unable to find resource 'javax.script:groovy-engine:pom:1.1' in repository camel.internal.maven.repository (http://svn.apache.org/repos/asf/camel/m2-repo)
+Downloading: http://www.hibernatespatial.org/repository/javax/script/groovy-engine/1.1/groovy-engine-1.1.pom
+[INFO] Unable to find resource 'javax.script:groovy-engine:pom:1.1' in repository Hibernate Spatial repo (http://www.hibernatespatial.org/repository)
+Downloading: http://maven.restlet.org/javax/script/groovy-engine/1.1/groovy-engine-1.1.pom
+[INFO] Unable to find resource 'javax.script:groovy-engine:pom:1.1' in repository maven-restlet (http://maven.restlet.org)
+Downloading: http://repo1.maven.org/maven2/javax/script/groovy-engine/1.1/groovy-engine-1.1.pom
+[INFO] Unable to find resource 'javax.script:groovy-engine:pom:1.1' in repository official maven 1 (http://repo1.maven.org/maven2)
+Downloading: http://repo2.maven.org/maven2/javax/script/groovy-engine/1.1/groovy-engine-1.1.pom
+[INFO] Unable to find resource 'javax.script:groovy-engine:pom:1.1' in repository official maven 2 (http://repo2.maven.org/maven2)
+Downloading: http://repo1.maven.org/maven2/javax/script/groovy-engine/1.1/groovy-engine-1.1.pom
+[INFO] Unable to find resource 'javax.script:groovy-engine:pom:1.1' in repository central (http://repo1.maven.org/maven2)
+Downloading: http://maven.geo-solutions.it/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.jar
+Downloading: http://maven.geo-solutions.it/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar
+[INFO] snapshot it.geosolutions.geobatch.adbarno:gb-action-migration-monitor:1.4-SNAPSHOT: checking for updates from geosolutions
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:jar:1.0.b9' in repository geosolutions (http://maven.geo-solutions.it)
+[INFO] Unable to find resource 'org.mortbay.jetty:jetty:jar:6.1.26' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar
+Downloading: http://repository.jboss.com/maven2/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.jar
+[INFO] snapshot it.geosolutions.geobatch.adbarno:gb-action-migration-monitor:1.4-SNAPSHOT: checking for updates from JBoss
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:jar:1.0.b9' in repository JBoss (http://repository.jboss.com/maven2)
+[INFO] Unable to find resource 'org.mortbay.jetty:jetty:jar:6.1.26' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.jar
+Downloading: repo.boundlessgeo.com/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:jar:1.0.b9' in repository boundless (repo.boundlessgeo.com)
+[INFO] Unable to find resource 'org.mortbay.jetty:jetty:jar:6.1.26' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://download.osgeo.org/webdav/geotools//net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.jar
+Downloading: http://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar
+[INFO] snapshot it.geosolutions.geobatch.adbarno:gb-action-migration-monitor:1.4-SNAPSHOT: checking for updates from boundless
+4/527K8/527K11/527K15/527K19/527K23/527K25/527K26/527K30/527K32/527K36/527K40/527K44/527K46/527K50/527K51/527K53/527K57/527K61/527K65/527K68/527K72/527K76/527K78/527K82/527K86/527K90/527K93/527K96/527K100/527K104/527K106/527K110/527K114/527K118/527K122/527K123/527K127/527K131/527K133/527K137/527K141/527K145/527K148/527K152/527K155/527K159/527K163/527K164/527K168/527K172/527K176/527K178/527K182/527K186/527K187/527K191/527K195/527K199/527K203/527K206/527K208/527K212/527K216/527K219/527K223/527K227/527K231/527K235/527K237/527K241/527K245/527K246/527K250/527K254/527K256/527K260/527K261/527K265/527K269/527K273/527K277/527K281/527K285/527K287/527K291/527K295/527K299/527K302/527K305/527K309/527K313/527K315/527K[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:jar:1.0.b9' in repository osgeo (http://download.osgeo.org/webdav/geotools/)
+Downloading: http://maven.geotoolkit.org//net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.jar
+319/527K323/527K324/527K328/527K332/527K333/527K336/527K340/527K344/527K346/527K349/527K353/527K357/527K360/527K363/527K367/527K371/527K373/527K377/527K381/527K385/527K388/527K392/527K396/527K397/527K399/527K403/527K407/527K410/527K414/527K418/527K422/527K425/527K427/527K431/527K435/527K439/527K441/527K445/527K449/527K453/527K453/527K457/527K461/527K464/527K468/527K472/527K476/527K478/527K482/527K486/527K489/527K493/527K497/527K501/527K504/527K507/527K511/527K515/527K517/527K521/527K525/527K527/527K527K downloaded  (jetty-6.1.26.jar)
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:jar:1.0.b9' in repository geotoolkit (http://maven.geotoolkit.org/)
+Downloading: http://repo.boundlessgeo.com/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.jar
+Downloading: http://maven.geo-solutions.it/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar
+[INFO] Unable to find resource 'org.mortbay.jetty:jetty-util:jar:6.1.26' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:jar:1.0.b9' in repository opengeo (http://repo.boundlessgeo.com)
+Downloading: http://download.java.net/maven/2//net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.jar
+[INFO] Unable to find resource 'org.mortbay.jetty:jetty-util:jar:6.1.26' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar
+[INFO] Unable to find resource 'org.mortbay.jetty:jetty-util:jar:6.1.26' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:jar:1.0.b9' in repository java.net (http://download.java.net/maven/2/)
+Downloading: http://svn.apache.org/repos/asf/camel/m2-repo/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.jar
+4/172K8/172K12/172K16/172K20/172K24/172K28/172K32/172K32/172K35/172K39/172K43/172K47/172K48/172K52/172K56/172K59/172K63/172K67/172K71/172K75/172K79/172K80/172K84/172K88/172K92/172K96/172K98/172K100/172K104/172K108/172K111/172K[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:jar:1.0.b9' in repository camel.internal.maven.repository (http://svn.apache.org/repos/asf/camel/m2-repo)
+Downloading: http://www.hibernatespatial.org/repository/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.jar
+115/172K119/172K123/172K125/172K129/172K133/172K134/172K138/172K142/172K146/172K148/172K152/172K156/172K158/172K162/172K166/172K169/172K172/172K172K downloaded  (jetty-util-6.1.26.jar)
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:jar:1.0.b9' in repository Hibernate Spatial repo (http://www.hibernatespatial.org/repository)
+Downloading: http://maven.restlet.org/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.jar
+Downloading: http://maven.geo-solutions.it/org/mortbay/jetty/jsp-2.1/6.1.8/jsp-2.1-6.1.8.jar
+[INFO] Unable to find resource 'org.mortbay.jetty:jsp-2.1:jar:6.1.8' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/mortbay/jetty/jsp-2.1/6.1.8/jsp-2.1-6.1.8.jar
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:jar:1.0.b9' in repository maven-restlet (http://maven.restlet.org)
+Downloading: http://repo1.maven.org/maven2/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.jar
+[INFO] Unable to find resource 'org.mortbay.jetty:jsp-2.1:jar:6.1.8' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/mortbay/jetty/jsp-2.1/6.1.8/jsp-2.1-6.1.8.jar
+[INFO] Unable to find resource 'org.mortbay.jetty:jsp-2.1:jar:6.1.8' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repo1.maven.org/maven2/org/mortbay/jetty/jsp-2.1/6.1.8/jsp-2.1-6.1.8.jar
+[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:jar:1.0.b9' in repository official maven 1 (http://repo1.maven.org/maven2)
+Downloading: http://repo2.maven.org/maven2/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.jar
+4/1000K8/1000K9/1000K13/1000K17/1000K18/1000K22/1000K26/1000K29/1000K33/1000K35/1000K38/1000K42/1000K46/1000K48/1000K52/1000K56/1000K57/1000K[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:jar:1.0.b9' in repository official maven 2 (http://repo2.maven.org/maven2)
+Downloading: http://repo1.maven.org/maven2/net/sourceforge/hatbox/hatbox/1.0.b9/hatbox-1.0.b9.jar
+61/1000K63/1000K67/1000K71/1000K75/1000K75/1000K79/1000K83/1000K86/1000K90/1000K94/1000K98/1000K100/1000K[INFO] Unable to find resource 'net.sourceforge.hatbox:hatbox:jar:1.0.b9' in repository central (http://repo1.maven.org/maven2)
+104/1000K108/1000K112/1000K115/1000K117/1000K121/1000K125/1000K128/1000K132/1000K136/1000K140/1000K142/1000K146/1000K149/1000K153/1000K157/1000K160/1000K164/1000K168/1000K170/1000K174/1000K178/1000K182/1000K185/1000K189/1000K191/1000K195/1000K199/1000K203/1000K205/1000K208/1000K212/1000K216/1000K220/1000K222/1000K226/1000K230/1000K233/1000K237/1000K241/1000K245/1000K245/1000K249/1000K253/1000K255/1000K259/1000K263/1000K267/1000K269/1000K272/1000K276/1000K280/1000K282/1000K286/1000K290/1000K294/1000K298/1000K299/1000K303/1000K307/1000K311/1000K313/1000K317/1000K321/1000K325/1000K326/1000K330/1000K334/1000K336/1000K340/1000K344/1000K346/1000K350/1000K354/1000K358/1000K360/1000K364/1000K368/1000K372/1000K374/1000K378/1000K382/1000K386/1000K388/1000K392/1000K396/1000K400/1000K401/1000K405/1000K409/1000K413/1000K415/1000K419/1000K423/1000K427/1000K429/1000K433/1000K436/1000K438/1000K442/1000K446/1000K449/1000K453/1000K457/1000K461/1000K465/1000K467/1000K471/1000K475/1000K479/1000K480/1000K484/1000K488/1000K490/1000K494/1000K498/1000K499/1000K503/1000K507/1000K511/1000K512/1000K515/1000K519/1000K523/1000K527/1000K527/1000K531/1000K535/1000K537/1000K540/1000K543/1000K547/1000K551/1000K555/1000K558/1000K562/1000K566/1000K570/1000K571/1000K575/1000K579/1000K583/1000K585/1000K589/1000K593/1000K595/1000K598/1000K602/1000K606/1000K610/1000K613/1000K617/1000K621/1000K625/1000K627/1000K631/1000K635/1000K639/1000K640/1000K644/1000K648/1000K650/1000K654/1000K658/1000K662/1000K662/1000K666/1000K670/1000K672/1000K676/1000K680/1000K684/1000K686/1000K689/1000K693/1000K697/1000K700/1000K704/1000K708/1000K712/1000K716/1000K720/1000K720/1000K724/1000K728/1000K732/1000K735/1000K739/1000K743/1000K745/1000K749/1000K753/1000K757/1000K758/1000K762/1000K766/1000K769/1000K773/1000K777/1000K781/1000K783/1000K787/1000K791/1000K795/1000K796/1000K800/1000K804/1000K808/1000K812/1000K814/1000K818/1000K822/1000K826/1000K827/1000K831/1000K835/1000K839/1000K843/1000K846/1000K850/1000K854/1000K855/1000K859/1000K863/1000K867/1000K870/1000K874/1000K878/1000K882/1000K884/1000K888/1000K892/1000K894/1000K897/1000K901/1000K905/1000K909/1000K912/1000K916/1000K920/1000K924/1000K926/1000K930/1000K934/1000K938/1000K939/1000K943/1000K947/1000K949/1000K953/1000K957/1000K959/1000K963/1000K967/1000K971/1000K971/1000K975/1000K979/1000K983/1000K983/1000K987/1000K991/1000K993/1000K997/1000K1000/1000K1000K downloaded  (jsp-2.1-6.1.8.jar)
+Downloading: http://maven.geo-solutions.it/org/mortbay/jetty/jsp-api-2.1/6.1.8/jsp-api-2.1-6.1.8.jar
+[INFO] Unable to find resource 'org.mortbay.jetty:jsp-api-2.1:jar:6.1.8' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/mortbay/jetty/jsp-api-2.1/6.1.8/jsp-api-2.1-6.1.8.jar
+[INFO] Unable to find resource 'org.mortbay.jetty:jsp-api-2.1:jar:6.1.8' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/mortbay/jetty/jsp-api-2.1/6.1.8/jsp-api-2.1-6.1.8.jar
+[INFO] Unable to find resource 'org.mortbay.jetty:jsp-api-2.1:jar:6.1.8' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repository.codehaus.org/org/mortbay/jetty/jsp-api-2.1/6.1.8/jsp-api-2.1-6.1.8.jar
+4/130K8/130K9/130K13/130K17/130K19/130K23/130K27/130K29/130K33/130K34/130K38/130K42/130K46/130K47/130K51/130K55/130K59/130K62/130K66/130K70/130K72/130K76/130K80/130K83/130K87/130K91/130K95/130K95/130K99/130K103/130K107/130K110/130K114/130K118/130K120/130K124/130K128/130K130/130K130K downloaded  (jsp-api-2.1-6.1.8.jar)
+Downloading: http://maven.geo-solutions.it/org/mortbay/jetty/servlet-api-2.5/6.1.8/servlet-api-2.5-6.1.8.jar
+[INFO] Unable to find resource 'org.mortbay.jetty:servlet-api-2.5:jar:6.1.8' in repository geosolutions (http://maven.geo-solutions.it)
+Downloading: http://repository.jboss.com/maven2/org/mortbay/jetty/servlet-api-2.5/6.1.8/servlet-api-2.5-6.1.8.jar
+[INFO] Unable to find resource 'org.mortbay.jetty:servlet-api-2.5:jar:6.1.8' in repository JBoss (http://repository.jboss.com/maven2)
+Downloading: repo.boundlessgeo.com/org/mortbay/jetty/servlet-api-2.5/6.1.8/servlet-api-2.5-6.1.8.jar
+[INFO] Unable to find resource 'org.mortbay.jetty:servlet-api-2.5:jar:6.1.8' in repository boundless (repo.boundlessgeo.com)
+Downloading: http://repository.codehaus.org/org/mortbay/jetty/servlet-api-2.5/6.1.8/servlet-api-2.5-6.1.8.jar
+4/129K8/129K10/129K14/129K18/129K22/129K23/129K24/129K28/129K32/129K34/129K38/129K42/129K46/129K46/129K50/129K54/129K58/129K60/129K64/129K68/129K68/129K72/129K76/129K80/129K80/129K84/129K88/129K92/129K95/129K99/129K103/129K106/129K110/129K114/129K118/129K121/129K125/129K129/129K129/129K129K downloaded  (servlet-api-2.5-6.1.8.jar)
+[INFO] ------------------------------------------------------------------------
+[ERROR] BUILD ERROR
+[INFO] ------------------------------------------------------------------------
+[INFO] Failed to resolve artifact.
+
+Missing:
+----------
+1) net.sourceforge.hatbox:hatbox:jar:1.0.b9
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=net.sourceforge.hatbox -DartifactId=hatbox -Dversion=1.0.b9 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=net.sourceforge.hatbox -DartifactId=hatbox -Dversion=1.0.b9 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) it.geosolutions.geobatch:gb-application-adbarno:war:1.4-SNAPSHOT
+  	2) it.geosolutions.geobatch:gb-action-ds2ds:jar:1.4-SNAPSHOT
+  	3) net.sourceforge.hatbox:hatbox:jar:1.0.b9
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  it.geosolutions.geobatch:gb-application-adbarno:war:1.4-SNAPSHOT
+
+from the specified remote repositories:
+  boundless (repo.boundlessgeo.com),
+  geosolutions (http://maven.geo-solutions.it),
+  central (http://repo1.maven.org/maven2),
+  JBoss (http://repository.jboss.com/maven2)
+
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] For more information, run Maven with the -e switch
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 35 seconds
+[INFO] Finished at: Tue Sep 30 16:03:22 CEST 2014
+[INFO] Final Memory: 37M/377M
+[INFO] ------------------------------------------------------------------------
