@@ -61,7 +61,7 @@ public class MigrationMonitor {
     private Integer idAttivazione;
     
     @Column(name="epsg")
-    private Integer epsg;
+    private String epsg;
     
     @Lob
     @Column(name="note")
@@ -191,14 +191,14 @@ public class MigrationMonitor {
     /**
      * @return the epsg
      */
-    public Integer getEpsg() {
+    public String getEpsg() {
         return epsg;
     }
 
     /**
      * @param epsg the epsg to set
      */
-    public void setEpsg(Integer epsg) {
+    public void setEpsg(String epsg) {
         this.epsg = epsg;
     }
 

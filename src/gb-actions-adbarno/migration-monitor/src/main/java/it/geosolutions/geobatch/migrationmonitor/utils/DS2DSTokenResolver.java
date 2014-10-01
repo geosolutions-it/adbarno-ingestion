@@ -99,11 +99,11 @@ public class DS2DSTokenResolver {
         msgToLog.append("TYPENAME:");
         msgToLog.append(tmp);
         
-        if(migMonit.getEpsg() == null){
+        if(migMonit.getEpsg() == null || migMonit.getEpsg().isEmpty()){
             output = output.replace("<crs>"+CRS+"</crs>", "");
         }
         else{
-            tmp=Integer.toString(migMonit.getEpsg());
+            tmp=migMonit.getEpsg();
             tmp=tmp.trim();
             output = output.replace(CRS, tmp);
             msgToLog.append(";CRS:");
