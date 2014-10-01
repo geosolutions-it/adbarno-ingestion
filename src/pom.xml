@@ -84,6 +84,11 @@
             <!--  imported actions -->
             <dependency>
                 <groupId>it.geosolutions.geobatch</groupId>
+                <artifactId>gb-action-commons</artifactId>
+                <version>${gb.version}</version>
+            </dependency>
+			<dependency>
+                <groupId>it.geosolutions.geobatch</groupId>
                 <artifactId>gb-action-ds2ds</artifactId>
                 <version>${gb.version}</version>
             </dependency>
