@@ -31,6 +31,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -42,7 +43,7 @@ import com.googlecode.genericdao.search.Search;
  * @author DamianoG
  *
  */
-//@Ignore(value="This is just a quick and dirty test to check database connections, DAO configuration and implementation")
+@Ignore(value="This is just a quick and dirty test to check database connections, DAO configuration and implementation")
 public class MigrationMonitorTest {
 
     
