@@ -425,7 +425,7 @@
             </snapshots>
             <id>boundless</id>
             <name>Boundless Maven Repository</name>
-            <url>repo.boundlessgeo.com</url>
+            <url>http://repo.boundlessgeo.com/main</url>
         </repository>
     </repositories>
 
