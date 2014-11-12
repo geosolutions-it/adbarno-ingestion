@@ -61,8 +61,8 @@ public class MigrationMonitorDAOImpl extends BaseDAO<MigrationMonitor, Long> imp
     @Override
     public List<MigrationMonitor> findTablesToMigrate() {
         Search searchCriteria = new Search(MigrationMonitor.class);
-        searchCriteria.addFilterEqual("attivo", true);
-        searchCriteria.addFilterIn("statoMigrazione", MigrationStatus.NOTYET, MigrationStatus.INPROGRESS);
+        searchCriteria.addFilterEqual("active", true);
+        searchCriteria.addFilterIn("migrationStatus", MigrationStatus.NOTYET, MigrationStatus.INPROGRESS);
         List<MigrationMonitor> entries = this.search(searchCriteria);
         if (entries == null){
             return new ArrayList<MigrationMonitor>();
@@ -75,11 +75,11 @@ public class MigrationMonitorDAOImpl extends BaseDAO<MigrationMonitor, Long> imp
         Search searchCriteria = new Search(MigrationMonitor.class);
         searchCriteria.addFilterEqual("serverIp", host);
         searchCriteria.addFilterEqual("database", db);
-        searchCriteria.addFilterEqual("schemaNome", schema);
-        searchCriteria.addFilterEqual("tabella", tableName);
+        searchCriteria.addFilterEqual("schemaName", schema);
+        searchCriteria.addFilterEqual("tableName", tableName);
         
-        searchCriteria.addFilterEqual("attivo", true);
-        searchCriteria.addFilterIn("statoMigrazione", MigrationStatus.INPROGRESS, MigrationStatus.NOTYET );
+        searchCriteria.addFilterEqual("active", true);
+        searchCriteria.addFilterIn("migrationStatus", MigrationStatus.INPROGRESS, MigrationStatus.NOTYET );
         
         List<MigrationMonitor> entries = this.search(searchCriteria);
         if (entries == null){

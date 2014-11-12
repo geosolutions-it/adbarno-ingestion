@@ -37,10 +37,10 @@ public class MigrationMonitor {
     
     @Id
     @Column(name="id_strato")
-    private Long idStrato;
+    private Long layerId;
     
     @Column(name="id_repertorio")
-    private Integer idRepertorio;
+    private Integer inventoryId;
     
     @Column(name="server_name")
     private String serverName;
@@ -48,17 +48,20 @@ public class MigrationMonitor {
     @Column(name="server_ip")
     private String serverIp;
     
+    @Column(name="server_port")
+    private Integer serverPort;
+    
     @Column(name="db")
     private String database;
     
     @Column(name="schema_nome")
-    private String schemaNome;
+    private String schemaName;
     
     @Column(name="tabella")
-    private String tabella;
+    private String tableName;
     
     @Column(name="id_attivazione")
-    private Integer idAttivazione;
+    private Integer activationId;
     
     @Column(name="epsg")
     private String epsg;
@@ -68,40 +71,40 @@ public class MigrationMonitor {
     private String note;
     
     @Column(name="stato_migrazione")
-    private String statoMigrazione;
+    private String migrationStatus;
     
     @Column(name="attivo")
-    private Boolean attivo;
+    private Boolean active;
 
     
     public MigrationMonitor() {}
 
     /**
-     * @return the idStrato
+     * @return the layerId
      */
-    public Long getIdStrato() {
-        return idStrato;
+    public Long getLayerId() {
+        return layerId;
     }
 
     /**
-     * @param idStrato the idStrato to set
+     * @param layerId the layerId to set
      */
-    public void setIdStrato(Long idStrato) {
-        this.idStrato = idStrato;
+    public void setLayerId(Long layerId) {
+        this.layerId = layerId;
     }
 
     /**
-     * @return the idRepertorio
+     * @return the inventoryId
      */
-    public Integer getIdRepertorio() {
-        return idRepertorio;
+    public Integer getInventoryId() {
+        return inventoryId;
     }
 
     /**
-     * @param idRepertorio the idRepertorio to set
+     * @param inventoryId the inventoryId to set
      */
-    public void setIdRepertorio(Integer idRepertorio) {
-        this.idRepertorio = idRepertorio;
+    public void setInventoryId(Integer inventoryId) {
+        this.inventoryId = inventoryId;
     }
 
     /**
@@ -133,6 +136,20 @@ public class MigrationMonitor {
     }
 
     /**
+     * @return the serverPort
+     */
+    public Integer getServerPort() {
+        return serverPort;
+    }
+
+    /**
+     * @param serverPort the serverPort to set
+     */
+    public void setServerPort(Integer serverPort) {
+        this.serverPort = serverPort;
+    }
+
+    /**
      * @return the database
      */
     public String getDatabase() {
@@ -147,45 +164,45 @@ public class MigrationMonitor {
     }
 
     /**
-     * @return the schemaNome
+     * @return the schemaName
      */
-    public String getSchemaNome() {
-        return schemaNome;
+    public String getSchemaName() {
+        return schemaName;
     }
 
     /**
-     * @param schemaNome the schemaNome to set
+     * @param schemaName the schemaName to set
      */
-    public void setSchemaNome(String schemaNome) {
-        this.schemaNome = schemaNome;
+    public void setSchemaName(String schemaName) {
+        this.schemaName = schemaName;
     }
 
     /**
-     * @return the tabella
+     * @return the tableName
      */
-    public String getTabella() {
-        return tabella;
+    public String getTableName() {
+        return tableName;
     }
 
     /**
-     * @param tabella the tabella to set
+     * @param tableName the tableName to set
      */
-    public void setTabella(String tabella) {
-        this.tabella = tabella;
+    public void setTableName(String tableName) {
+        this.tableName = tableName;
     }
 
     /**
-     * @return the idAttivazione
+     * @return the activationId
      */
-    public Integer getIdAttivazione() {
-        return idAttivazione;
+    public Integer getActivationId() {
+        return activationId;
     }
 
     /**
-     * @param idAttivazione the idAttivazione to set
+     * @param activationId the activationId to set
      */
-    public void setIdAttivazione(Integer idAttivazione) {
-        this.idAttivazione = idAttivazione;
+    public void setActivationId(Integer activationId) {
+        this.activationId = activationId;
     }
 
     /**
@@ -217,31 +234,31 @@ public class MigrationMonitor {
     }
 
     /**
-     * @return the statoMigrazione
+     * @return the migrationStatus
      */
-    public String getStatoMigrazione() {
-        return statoMigrazione;
+    public String getMigrationStatus() {
+        return migrationStatus;
     }
 
     /**
-     * @param statoMigrazione the statoMigrazione to set
+     * @param migrationStatus the migrationStatus to set
      */
-    public void setStatoMigrazione(String statoMigrazione) {
-        this.statoMigrazione = statoMigrazione;
+    public void setMigrationStatus(String migrationStatus) {
+        this.migrationStatus = migrationStatus;
     }
 
     /**
-     * @return the attivo
+     * @return the active value
      */
-    public Boolean getAttivo() {
-        return attivo;
+    public Boolean getActive() {
+        return active;
     }
 
     /**
-     * @param attivo the attivo to set
+     * @param active the active value to set
      */
-    public void setAttivo(Boolean attivo) {
-        this.attivo = attivo;
+    public void setActive(Boolean active) {
+        this.active = active;
     }
 
     

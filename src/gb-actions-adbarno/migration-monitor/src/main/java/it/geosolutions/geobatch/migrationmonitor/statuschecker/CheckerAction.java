@@ -146,7 +146,7 @@ public class CheckerAction extends BaseAction<FileSystemEvent> {
             
             //change the status in the strati_rif table
             MigrationMonitor mm = migrationMonitorDAO.findByTablename(host, db, schema, tableName);
-            mm.setStatoMigrazione(MigrationStatus.MIGRATED.toString().toUpperCase());
+            mm.setMigrationStatus(MigrationStatus.MIGRATED.toString().toUpperCase());
             migrationMonitorDAO.merge(mm);
         
         } catch (Exception t) {

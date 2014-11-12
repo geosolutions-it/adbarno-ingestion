@@ -20,13 +20,16 @@
 
 package it.geosolutions.geobatch.migrationmonitor.test;
 
+import static org.junit.Assert.fail;
 import it.geosolutions.filesystemmonitor.monitor.FileSystemEvent;
 import it.geosolutions.geobatch.flow.event.action.ActionException;
 import it.geosolutions.geobatch.migrationmonitor.dao.MigrationMonitorDAO;
 import it.geosolutions.geobatch.migrationmonitor.model.MigrationMonitor;
 import it.geosolutions.geobatch.migrationmonitor.monitor.MonitorAction;
 import it.geosolutions.geobatch.migrationmonitor.monitor.MonitorConfiguration;
+import it.geosolutions.geobatch.migrationmonitor.utils.DS2DSTokenResolver;
 
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -65,7 +68,7 @@ public class MigrationMonitorTest {
         monitor.getServerName();
         List<MigrationMonitor> listToMigrate = dao.findAll();
         for(MigrationMonitor mm : listToMigrate){
-            System.out.println(mm.getTabella());
+            System.out.println(mm.getTableName());
         }
        
     }
@@ -85,4 +88,36 @@ public class MigrationMonitorTest {
         }
        
     }
+    
+    /**
+     * Simple test to display the generated XML from a given index table record
+     */
+    @Test
+    public void ds2dsTokenResolverTest(){
+        
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        MigrationMonitorDAO dao = (MigrationMonitorDAO)context.getBean("migrationMonitorDAO");
+        int count = dao.count(new Search(MigrationMonitor.class));
+        MigrationMonitor monitor = dao.find(1l);
+        monitor.getServerName();
+        List<MigrationMonitor> listToMigrate = dao.findAll();
+        for(MigrationMonitor mm : listToMigrate){
+            System.out.println(mm.getTableName());
+            // Passing null as configDir will force the class to get the default values
+            try {
+				DS2DSTokenResolver dtc = new DS2DSTokenResolver(mm, null);
+				
+				System.out.println(dtc.getOutputFileContent());
+				
+			} catch (IOException e) {
+				LOGGER.error(e.getMessage(), e);
+				fail();
+			}
+            
+        }
+        
+    }
+    
+
+    
 }

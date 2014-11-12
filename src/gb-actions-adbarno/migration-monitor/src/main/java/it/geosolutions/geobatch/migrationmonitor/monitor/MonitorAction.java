@@ -121,7 +121,7 @@ public class MonitorAction extends BaseAction<FileSystemEvent> {
                     continue;
                 }
 
-                String filename = getTempDir() + File.separator + mm.getTabella() + mm.getIdStrato() + ".xml";
+                String filename = getTempDir() + File.separator + mm.getTableName() + mm.getLayerId() + ".xml";
                 Writer writer = null;
                 try {
                     writer = new FileWriter(filename);
@@ -143,7 +143,7 @@ public class MonitorAction extends BaseAction<FileSystemEvent> {
                     }
                 }
 
-                mm.setStatoMigrazione(MigrationStatus.INPROGRESS.toString().toUpperCase());
+                mm.setMigrationStatus(MigrationStatus.INPROGRESS.toString().toUpperCase());
                 migrationMonitorDAO.merge(mm);
             }
 

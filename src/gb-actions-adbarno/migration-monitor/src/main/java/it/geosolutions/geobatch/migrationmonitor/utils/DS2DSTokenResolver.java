@@ -93,7 +93,7 @@ public class DS2DSTokenResolver {
         StringBuffer msgToLog = new StringBuffer();
         msgToLog.append("[[");
         
-        tmp=migMonit.getTabella();
+        tmp=migMonit.getTableName();
         tmp=tmp.trim();
         output = output.replace(TYPENAME, tmp);
         msgToLog.append("TYPENAME:");
@@ -126,21 +126,26 @@ public class DS2DSTokenResolver {
             output = output.replace("server", "host");
         }
         
-        tmp=migMonit.getSchemaNome();
+        tmp=migMonit.getSchemaName();
         tmp=tmp.trim();
         output = output.replace(SCHEMA, tmp);
         msgToLog.append(";SCHEMA:");
         msgToLog.append(tmp);
         
-        tmp=defaultsValues.getProperty("PORT");
+        //If the port is not specified, use the default
+        tmp=(migMonit.getServerPort() == null)?defaultsValues.getProperty("PORT"):migMonit.getServerPort().toString(); 
         tmp=tmp.trim();
         output = output.replace(PORT, tmp);
         msgToLog.append(";PORT:");
         msgToLog.append(tmp);
         
-        
         String tmpDefault = defaultsValues.getProperty("INSTANCE");
-        tmp=(tmpDefault == null || tmpDefault.isEmpty())?migMonit.getDatabase():tmpDefault;
+        //If the default does not exists, use an empty string
+        if(tmpDefault == null){
+        	tmpDefault = "";
+        }
+        //If INSTANCE is not specified, get the default
+        tmp=(migMonit.getDatabase() == null || migMonit.getDatabase().isEmpty())?tmpDefault:migMonit.getDatabase();
         tmp=tmp.trim();
         output = output.replace(INSTANCE, tmp);
         msgToLog.append(";DATABASE/INSTANCE:");
@@ -245,11 +250,13 @@ public class DS2DSTokenResolver {
      */
     private Properties loadDefaultValues(File configDir) throws IOException{
         
-        LOGGER.info("The provided config dir is: " + configDir.getAbsolutePath());
         if(configDir == null || !configDir.isDirectory() || !configDir.canRead()){
             LOGGER.warn("The provided config dir is null, it is not a directory or it cannot be read... skipping to load the internal defaultValues file...");
         }
         else{
+        	
+        	LOGGER.info("The provided config dir is: " + configDir.getAbsolutePath());
+            
             File f = new File(configDir + File.separator + "DS2DSDefaultsValues.properties");
             if(f == null || !f.exists() || f.isDirectory()){
                 LOGGER.warn("Cannot find or read the defaultFile in the configDir... skipping to load the internal defaultValues file...");
