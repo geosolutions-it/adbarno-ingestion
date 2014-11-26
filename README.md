@@ -1,11 +1,13 @@
-adbarno-ingestion
+ADBArno-ingestion
 =================
 
-Ingestion flows for adbarno data
+Ingestion flows for adbarno data.
 
-Clone the repo, open the shell and go in the src directory and type:
+Clone the repo, open the shell, go in the src directory and type:
 
+```
 $adbarno-ingestion/src# mvn clean install
+```
 
 This command automatically includes the following GeoBatch profiles required for the developed flows:
 
