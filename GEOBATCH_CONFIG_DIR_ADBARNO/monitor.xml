@@ -41,7 +41,7 @@
 			<id>move</id>
 			<description>move</description>
 			<name>move</name>
-			<destination>D:\work\configurations\GEOBATCH_CONFIG_DIR_ADBARNO\sde2pg\in</destination>
+			<destination>D:\work\configurations\GEOBATCH_CONFIG_DIR_ADBARNO\migration\in</destination>
 			<listenerId>ADBA_StatusActionLogger0</listenerId>
 			<listenerId>ADBA_ActionLogger0</listenerId>	
 		</MoveConfiguration>
