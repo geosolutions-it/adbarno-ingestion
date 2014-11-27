@@ -3,7 +3,7 @@
 
     <id>migration</id>
     <description>DataStore to DataStore configuration flow</description>
-    <name>ds2ds flow</name>
+    <name>migration flow</name>
 
     <autorun>true</autorun>
 
@@ -33,9 +33,7 @@
             <failIgnored>false</failIgnored>
 
 
-            <!-- Configures the source feature: optional, usually the source feature
-                 is received as an event. The sourceFeature can be used to fill missing
-                 metadata (such as the coordinate system) if needed. -->
+            <!-- Configures the output feature: mandatory -->
             <outputFeature>
                 <!-- feature typeName (schema) to read from the source DataStore -->
                 <!-- <typeName>MUNICIPALITIES</typeName>  -->
@@ -72,7 +70,9 @@
                 </dataStore>
             </outputFeature>
 
-            <!-- Configures the output feature: mandatory -->
+            <!-- Configures the source feature: optional, usually the source feature
+                 is received as an event. The sourceFeature can be used to fill missing
+                 metadata (such as the coordinate system) if needed. -->
             <sourceFeature>
 			<!-- feature typeName (schema): will be created if not
                      already present in output DataStore -->

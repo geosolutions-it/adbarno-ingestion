@@ -39,7 +39,7 @@ public Map execute(Map argsMap) throws Exception {
     final String DB_NAME = "_db_name_";
     final String PASSWORD = "_password_";
     
-    final String dbconnection = "\"PostgreSQL\" PG:\"host=" + HOST_IP + " port=" + PORT + " schemas=_schemaname_ user="+ USER + " dbname=" + DB_NAME + " password=" + PASSWORD + "\"";
+    final String dbconnection = "\"PostgreSQL\" PG:\"host=" + HOST_IP + " port=" + PORT + " active_schema=_schemaname_ user="+ USER + " dbname=" + DB_NAME + " password=" + PASSWORD + "\"";
 
     dbconnection = dbconnection.replaceFirst(HOST_IP, host_config);
     dbconnection = dbconnection.replaceFirst(PORT, port_config);
@@ -75,7 +75,7 @@ public Map execute(Map argsMap) throws Exception {
     if(evnt_name_splitted != null && evnt_name_splitted.length != 3){
         throw new IllegalArgumentException("the filename '" + evnt_name + " is not allowed..");
     }
-    String schema_name = evnt_name_splitted[0];
+    String schema_name = evnt_name_splitted[0].toLowerCase();
     
     LOGGER.info("The filename without extension is: '" + schema_name + "'");
     LOGGER.info("Checking if the file name is made of only letters, digits and underscore, as requested to be used as database schema name...")
